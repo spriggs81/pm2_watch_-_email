@@ -1,0 +1,17 @@
+{
+  "name": "Watch_PM2",
+  "version": "1.0.8",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "^6.2.1",
+    "pm2": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "John Spriggs",
+  "license": "ISC"
+}
