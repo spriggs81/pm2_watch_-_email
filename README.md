@@ -27,4 +27,4 @@ The application has a total of 5 functions stored within it.
 
   createMessage(a,b) - This function creates the message for failed processes(process with a stopping, stopped, or errored status). It will       also create messages for passed processes(failed processes that are now showing an online status). This will create string variables.
   
-  main(a,b,c,d) - This function sends out the email. The email for failed processes will include the Process ID, Process Name, and the Process   Status. The email will also include the standard logs from pm2 and the error logs from pm2. The email for passed processes will include the     Process ID, Process Name, and Process Status (You can include logs by following )
+  main(a,b,c,d) - This function sends out the email. The email for failed processes will include the Process ID, Process Name, and the Process   Status. The email will also include the standard logs from pm2 and the error logs from pm2. The email for passed processes will include the     Process ID, Process Name, and Process Status (You can include logs by commemting out line 143 & 154)
